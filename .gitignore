@@ -1,0 +1,4 @@
+build/
+dist/
+__pycache__/
+repo_hf_cli.egg-info/
