@@ -11,30 +11,29 @@ This tool is designed to assist in generating code or text based on the context 
 ## Installation
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/deniskropp/repo-hf-cli.git
    cd repo-hf-cli
    ```
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. **Install the Tool**:
 
-3. **Install the Tool**:
    ```bash
-   pip install .
+   pip install -e .
    ```
 
 ## Usage
 
 1. **Set Up Your Hugging Face Token**:
    Make sure you have a Hugging Face API token. You can set it as an environment variable:
+
    ```bash
    export HF_TOKEN='your_huggingface_token'
    ```
 
-2. **Run the Tool**:
+1. **Run the Tool**:
+
    ```bash
    repo-hf-cli --model Qwen/Qwen2.5-Coder-32B-Instruct --repo awesome-ai --prompt "Complete the function to calculate the sum of two numbers" file1.py file2.py target_file.py
    ```
