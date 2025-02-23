@@ -15,7 +15,7 @@ setup(
     author='Denis Kropp',
     author_email='dok@directfb1.org',
     description='Repo-level completion tool.',
-    url='https://github.com/deniskropp/repo_hf-cli',
+    url='https://github.com/deniskropp/repo-hf-cli',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

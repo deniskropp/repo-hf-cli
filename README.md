@@ -12,8 +12,8 @@ This tool is designed to assist in generating code or text based on the context 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/deniskropp/repo_hf-cli.git
-   cd repo_hf-cli
+   git clone https://github.com/deniskropp/repo-hf-cli.git
+   cd repo-hf-cli
    ```
 
 2. **Install Dependencies**:
