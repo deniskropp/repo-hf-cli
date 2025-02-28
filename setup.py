@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='repo-hf-cli',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         'huggingface_hub'

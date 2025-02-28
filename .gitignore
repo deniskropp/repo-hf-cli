@@ -6,3 +6,5 @@ repo_hf_cli.egg-info/
 .nx/installation
 .nx/cache
 .nx/workspace-data
+
+.vscode/

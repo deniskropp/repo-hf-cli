@@ -18,10 +18,10 @@ def run(args):
     print(prompt, end='')
 
     for file_name in file_names:
+        prompt += f"<filename>{file_name}\n"
         try:
             with open(file_name, 'r') as file:
                 content = file.read()
-                prompt += f"<filename>{file_name}\n"
                 prompt += f"{content}\n"
             print(f"⫻context/file:{file_name} ({len(content)})")
         except FileNotFoundError:
